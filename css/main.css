@@ -324,7 +324,7 @@ position: relative;
 
 @media (min-width: 1440px) and (max-width: 1920px) {
 body {
-  padding: 40px 0 0 50px;
+  padding-top: 40px;
   background-image:  url('../bg-desk.png');
   overflow-y: hidden;
   display: flex;
@@ -333,7 +333,7 @@ body {
 }
 
   .logos {
-    padding: 0;
+    padding: 0 0 0 50px;
     /* padding-top: 60px; */
     width: 585px;
     height: 95px;
@@ -357,6 +357,7 @@ body {
   width: 660px;
   margin: 0;
   align-items: start;
+  padding: 0 0 0 50px;
 }
 
 .text-top-1 {
