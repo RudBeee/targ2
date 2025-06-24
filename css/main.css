@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('../images/fonts/LSANS.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000117;
+  background-image:  url('../bg-mob.webp');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  min-height: 100vh;
+  height: auto;
+  overflow-y: auto;
+}
+
+.logos {
+  padding: 28px 0 32px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo1 {
+  width: 102px;
+  background-image: url('../images/mobile/Logo-mob.webp');
+}
+
+.logo2 {
+  width: 160px;
+  background-image: url('../images/A-logo-mob.png');
+}
+
+.text-top {
+  width: 312px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-top-1 {
+  font-family: Aclonica;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.text-top-2 {
+  font-family: Aclonica;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: -3%;
+  text-align: center;
+  color: #FFE617;
+  text-shadow: 0.88px 1.75px 0px rgba(120, 85, 7, 1);
+  margin-bottom: 24px;
+}
+.btn {
+  box-sizing: border-box;
+  font-family: Lucida Sans;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 218px;
+  height: 44px;
+  background: rgba(255, 225, 117, 1);
+  border: 1px solid rgba(246, 143, 0, 1);
+  text-decoration: none;
+  color: rgba(129, 34, 0, 1);
+  cursor: pointer;
+  animation: scaleButton 2.5s ease-in-out infinite alternate;
+  margin-bottom: 30px;
+}
+
+@keyframes scaleButton {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.85); }
+  100% { transform: scale(1); }
+}
+
+.corner {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url('../images/mobile/button-elem.webp'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.top-left {
+  top: 4px;
+  left: 4px;
+  transform: rotate(-90deg);
+}
+
+.top-right {
+  top: 4px;
+  right: 4px;
+}
+
+.bottom-left {
+  bottom: 4px;
+  left: 4px;
+  transform: rotate(-180deg);
+}
+
+.bottom-right {
+  bottom: 4px;
+  right: 4px;
+  transform: rotate(90deg);
+}
+
+.bottom1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.characters {
+  margin: 0 auto;
+  width: 375px;
+  height: 310px;
+  background-image: url('../character-mob.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+position: relative;
+  z-index: 2;
+  margin-top: -140px;
+  width: 100%;
+  padding-bottom: 23px;
+  background: linear-gradient(0deg, #000000 56.65%, rgba(0, 0, 0, 0) 102.25%);
+
+}
+
+.footer-text {
+  font-family: Aclonica;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.wrapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.step {
+  width: 233px;
+  height: 64px;
+}
+
+.step-1 {
+  background-image: url('../Frame-mob-1.png');
+}
+
+.step-2 {
+  background-image: url('../Frame-mob-2.png');
+}
+
+.step-3 {
+  background-image: url('../Frame-mob-3.png');
+}
+
+
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  
+}
+
+@media (min-width: 1441px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1920px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
