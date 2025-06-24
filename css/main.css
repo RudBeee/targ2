@@ -205,7 +205,7 @@ position: relative;
 .step {
   width: 233px;
   height: 64px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -413,7 +413,6 @@ body {
 .step {
   width: 419px;
   height: 100px;
-
 }
 
 .step-1 {
