@@ -24,9 +24,7 @@ html, body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
   background-color: #000117;
   background-image:  url('../images/bg-mob.webp');
   background-size: cover;
@@ -36,6 +34,15 @@ body {
   min-height: 100vh;
   height: auto;
   overflow-y: auto;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    min-height: 100vh;
+  height: auto;
 }
 
 .logos {
@@ -430,10 +437,6 @@ body {
 }
 }
 
-.content {
-  max-width: 2000px;
-  margin: 0 auto;
-}
 
 @media (min-width: 1920px) {
 body {
@@ -541,6 +544,8 @@ body {
 .step-3 {
   background-image: url('../Frame-desk-3.png');
 }
+
+
 }
 
 
