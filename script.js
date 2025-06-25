@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     'images/bg-desk.webp',
     'images/bg-tab.webp',
     'images/bg-mob.webp',
-    'images/character-desk.webp',
-    'images/character-tab.webp',
-    'images/character-mob.webp',
+    'images/char-desk.png',
+    'images/char-tab.png',
+    'images/char-mob.png',
   ]);
 
 });
