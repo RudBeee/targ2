@@ -99,6 +99,7 @@ body > :last-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .text-top-1 {
@@ -364,6 +365,8 @@ body {
   overflow: hidden;
   align-items: top;
   box-sizing: border-box;
+  position: relative;
+  z-index: 700;
 }
 
 .main {
@@ -397,6 +400,8 @@ body {
   justify-content: center;
   align-items: start;
   padding-left: 50px;
+  position: relative;
+  z-index: 900;
 }
 
 .text-top-1 {
@@ -416,6 +421,8 @@ body {
   width: 302px;
   height: 64px;
   margin-bottom: 30px;
+  position: relative;
+  z-index: 999;
 }
 
 .characters {
