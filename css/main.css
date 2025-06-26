@@ -194,7 +194,8 @@ position: relative;
   margin-top: -140px;
   width: 100%;
   padding-bottom: 23px;
-  background: linear-gradient(0deg, #000000 56.65%, rgba(0, 0, 0, 0) 102.25%);
+  background: linear-gradient(0deg, #022784 71.73%, rgba(2, 39, 132, 0) 100%);
+
 
 }
 
@@ -225,15 +226,15 @@ position: relative;
 }
 
 .step-1 {
-  background-image: url('../Frame-mob-1.png');
+  background-image: url('../Frame1.png');
 }
 
 .step-2 {
-  background-image: url('../Frame-mob-2.png');
+  background-image: url('../Frame2.png');
 }
 
 .step-3 {
-  background-image: url('../Frame-mob-3.png');
+  background-image: url('../Frame3.png');
 }
 
 @media (min-width: 481px) and (max-width: 766px) {
@@ -298,7 +299,7 @@ position: relative;
 .footer {
   margin-top: -245px;
   padding-bottom: 40px;
-  background: linear-gradient(0deg, #000000 26.35%, rgba(0, 0, 0, 0) 102.25%);
+  background: linear-gradient(0deg, #022784 54.44%, rgba(2, 39, 132, 0) 100%);
 }
 
 .footer-text {
@@ -322,15 +323,15 @@ position: relative;
 }
 
 .step-1 {
-  background-image: url('../Frame-mob-1.png');
+  background-image: url('../Frame1.png');
 }
 
 .step-2 {
-  background-image: url('../Frame-mob-2.png');
+  background-image: url('../Frame2.png');
 }
 
 .step-3 {
-  background-image: url('../Frame-mob-3.png');
+  background-image: url('../Frame3.png');
 }
 
 }
@@ -419,7 +420,7 @@ body {
   bottom: 0;
   margin: 0;
   padding-bottom: 40px;
-  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 102.25%);
+  background: linear-gradient(0deg, #022784 0%, rgba(2, 39, 132, 0) 100%);
   z-index: 2;
 }
 
@@ -442,15 +443,15 @@ body {
 }
 
 .step-1 {
-  background-image: url('../Frame-desk-1.png');
+  background-image: url('../Frame1.png');
 }
 
 .step-2 {
-  background-image: url('../Frame-desk-2.png');
+  background-image: url('../Frame2.png');
 }
 
 .step-3 {
-  background-image: url('../Frame-desk-3.png');
+  background-image: url('../Frame3.png');
 }
 
 }
@@ -540,7 +541,8 @@ body {
   bottom: 0;
   margin: 0;
   padding-bottom: 40px;
-  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 102.25%);
+  background: linear-gradient(0deg, #022784 0%, rgba(2, 39, 132, 0) 100%);
+
   z-index: 2;
 }
 
@@ -563,15 +565,15 @@ body {
 }
 
 .step-1 {
-  background-image: url('../Frame-desk-1.png');
+  background-image: url('../Frame1.png');
 }
 
 .step-2 {
-  background-image: url('../Frame-desk-2.png');
+  background-image: url('../Frame2.png');
 }
 
 .step-3 {
-  background-image: url('../Frame-desk-3.png');
+  background-image: url('../Frame3.png');
 }
 
 
