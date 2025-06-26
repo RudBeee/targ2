@@ -6,6 +6,21 @@
 }
 
 
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../images/fonts/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../images/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .logo,
 .btn {
   outline: none;                           
@@ -87,30 +102,27 @@ body > :last-child {
 }
 
 .text-top-1 {
-  font-family: Aclonica;
+  font-family: Anton;
   font-weight: 400;
   font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0%;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 16px;
 }
 
 .text-top-2 {
-  font-family: Aclonica;
+  font-family: Anton;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 111%;
   letter-spacing: -3%;
   text-align: center;
-  color: #FFE617;
-  text-shadow: 0.88px 1.75px 0px rgba(120, 85, 7, 1);
+  color: rgba(255, 229, 0, 1);
   margin-bottom: 24px;
 }
 .btn {
   box-sizing: border-box;
-  font-family: Lucida Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -121,10 +133,9 @@ body > :last-child {
   align-items: center;
   width: 218px;
   height: 44px;
-  background: rgba(255, 225, 117, 1);
-  border: 1px solid rgba(246, 143, 0, 1);
+  background: rgba(255, 173, 0, 1);
   text-decoration: none;
-  color: rgba(129, 34, 0, 1);
+  color: black;
   cursor: pointer;
   animation: scaleButton 2.5s ease-in-out infinite alternate;
   margin-bottom: 30px;
@@ -142,35 +153,24 @@ body > :last-child {
 
 .corner {
   position: absolute;
-  width: 16px;
-  height: 16px;
-  background-image: url('../images/mobile/button-elem.webp'); 
-  background-size: contain;
+  width: 68px;
+  height: 100%;
+  background-image: url('../pattern.png'); 
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .top-left {
-  top: 4px;
-  left: 4px;
-  transform: rotate(-90deg);
-}
-
-.top-right {
-  top: 4px;
-  right: 4px;
-}
-
-.bottom-left {
-  bottom: 4px;
-  left: 4px;
+  top: 0;
+  left: 0;
   transform: rotate(-180deg);
 }
 
-.bottom-right {
-  bottom: 4px;
-  right: 4px;
-  transform: rotate(90deg);
+.top-right {
+  top: 0;
+  right: 0;
 }
+
 
 .bottom1 {
   display: flex;
@@ -200,7 +200,7 @@ position: relative;
 }
 
 .footer-text {
-  font-family: Aclonica;
+  font-family: Anton;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -218,11 +218,23 @@ position: relative;
 }
 
 .step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 302px;
   height: 67px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+
+  font-family: Source Sans Pro;
+  color: rgba(241, 236, 231, 1);
+;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 34px;
+  text-transform: capitalize;
+
 }
 
 .step-1 {
@@ -278,13 +290,13 @@ position: relative;
 .btn {
   font-size: 18px;
   width: 302px;
-  height: 64px;
+  height: 70px;
   margin-bottom: 30px;
 }
 
 .characters {
   margin: 0 auto;
-  width: 696px;
+  width: 672px;
   height: 621px;
   background-image: url('../images/char-tab.png');
   background-size: contain;
@@ -293,14 +305,14 @@ position: relative;
 }
 
 .footer {
-  margin-top: -245px;
+  margin-top: -160px;
   padding-bottom: 40px;
   background: linear-gradient(0deg, #022784 54.44%, rgba(2, 39, 132, 0) 100%);
 }
 
 .footer-text {
-  font-size: 24px;
-  margin-bottom: 28px;
+  font-size: 32px;
+  margin-bottom: 48px;
 }
 
 .wrapp {
@@ -315,7 +327,7 @@ position: relative;
 .step {
   width: 468px;
   height: 107px;
-
+  font-size: 28px;
 }
 
 .step-1 {
@@ -334,22 +346,26 @@ position: relative;
 
 
 @media (min-width: 1440px) and (max-width: 1919px) {
+  html {
+    overflow: hidden;
+  }
 body {
   background-image:  url('../images/bg-desk.webp');
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .block--1 {
   padding-top: 50px;
   display: flex;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1500px;
   overflow: hidden;
   align-items: top;
+  box-sizing: border-box;
 }
 
 .main {
-  padding-top: 30px;
+  padding-top: 0;
 }
 
   .logos {
@@ -358,7 +374,7 @@ body {
     height: 95px;
     margin: 0;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
 
   .logo1 {
@@ -388,7 +404,7 @@ body {
 }
 
 .text-top-2 {
-  font-size: 78px;
+  font-size: 68px;
   margin-bottom: 30px;
   text-align: start;
 }
@@ -402,7 +418,9 @@ body {
 
 .characters {
   width: 875px;
-  height: 772px;
+   height: 730px;
+  overflow-y: hidden;
+ 
   background-image: url('../images/char-desk.png');
   background-position: bottom right;
 }
@@ -435,7 +453,9 @@ body {
 
 .step {
   width: 297px;
-  height: 107px;
+  height: 86px;
+  font-size: 22px;
+  /* font-weight: 400; */
 }
 
 .step-1 {
@@ -454,8 +474,12 @@ body {
 
 
 @media (min-width: 1920px) {
+
+    html {
+    overflow: hidden;
+  }
 body {
-  /* padding-top: 40px; */
+
   background-image:  url('../images/bg-desk.webp');
   overflow: hidden;
 }
@@ -496,7 +520,7 @@ body {
   }
 
 .text-top {
-  width: 660px;
+  width: 550px;
   margin: 0;
   justify-content: center;
   align-items: start;
@@ -504,21 +528,21 @@ body {
 }
 
 .text-top-1 {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 48px;
+  line-height: 130%;
   margin-bottom: 30px;
 }
 
 .text-top-2 {
-  font-size: 78px;
-  margin-bottom: 30px;
+  font-size: 80px;
+  margin-bottom: 36px;
   text-align: start;
 }
 
 .btn {
-  font-size: 18px;
-  width: 302px;
-  height: 64px;
+  font-size: 24px;
+  width: 350px;
+  height: 70px;
   margin-bottom: 30px;
 }
 
@@ -544,21 +568,21 @@ body {
 }
 
 .footer-text {
-  font-size: 36px;
-  margin-bottom: 16px;
+  font-size: 38px;
+  margin-bottom: 30px;
 }
 
 .wrapp {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  max-width: 1150px;
-  gap: 16px;
+  max-width: 1145px;
 }
 
 .step {
   width: 297px;
   height: 107px;
+  font-size: 28px;
 }
 
 .step-1 {
