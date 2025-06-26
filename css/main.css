@@ -218,8 +218,8 @@ position: relative;
 }
 
 .step {
-  width: 233px;
-  height: 64px;
+  width: 302px;
+  height: 67px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -235,10 +235,6 @@ position: relative;
 
 .step-3 {
   background-image: url('../Frame3.png');
-}
-
-@media (min-width: 481px) and (max-width: 766px) {
-
 }
 
 @media (min-width: 767px) and (max-width: 1439px) {
@@ -317,21 +313,21 @@ position: relative;
 }
 
 .step {
-  width: 419px;
-  height: 100px;
+  width: 468px;
+  height: 107px;
 
 }
 
 .step-1 {
-  background-image: url('../Frame1.png');
+  background-image: url('../Frame1-tab.png');
 }
 
 .step-2 {
-  background-image: url('../Frame2.png');
+  background-image: url('../Frame2-tab.png');
 }
 
 .step-3 {
-  background-image: url('../Frame3.png');
+  background-image: url('../Frame3-tab.png');
 }
 
 }
@@ -433,25 +429,25 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  max-width: 1600px;
+  max-width: 1150px;
   gap: 16px;
 }
 
 .step {
-  width: 419px;
-  height: 100px;
+  width: 297px;
+  height: 107px;
 }
 
 .step-1 {
-  background-image: url('../Frame1.png');
+  background-image: url('../Frame1-desk.png');
 }
 
 .step-2 {
-  background-image: url('../Frame2.png');
+  background-image: url('../Frame2-desk.png');
 }
 
 .step-3 {
-  background-image: url('../Frame3.png');
+  background-image: url('../Frame3-desk.png');
 }
 
 }
@@ -469,6 +465,7 @@ body {
   display: flex;
   margin: 0 auto;
   max-width: 2000px;
+  height: 100%;
   overflow: hidden;
   align-items: top;
 }
@@ -526,10 +523,10 @@ body {
 }
 
 .characters {
-  width: 1167px;
-  height: 1029px;
+  width: 1139px;
+  height: 985px;
   background-image: url('../images/char-desk.png');
-  background-position: bottom right;
+  background-position: bottom;
 }
 
 .footer {
@@ -555,25 +552,25 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  max-width: 2000px;
+  max-width: 1150px;
   gap: 16px;
 }
 
 .step {
-  width: 419px;
-  height: 100px;
+  width: 297px;
+  height: 107px;
 }
 
 .step-1 {
-  background-image: url('../Frame1.png');
+  background-image: url('../Frame1-desk.png');
 }
 
 .step-2 {
-  background-image: url('../Frame2.png');
+  background-image: url('../Frame2-desk.png');
 }
 
 .step-3 {
-  background-image: url('../Frame3.png');
+  background-image: url('../Frame3-desk.png');
 }
 
 
