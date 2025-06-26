@@ -24,6 +24,9 @@ html, body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   background-color: #000117;
   background-image:  url('../images/bg-mob.webp');
@@ -34,6 +37,10 @@ body {
   min-height: 100vh;
   height: auto;
   overflow-y: auto;
+}
+
+body > :last-child {
+  flex: 1;
 }
 
 
@@ -175,7 +182,7 @@ body {
   margin: 0 auto;
   width: 375px;
   height: 310px;
-  background-image: url('../images/char-mob.png');
+  background-image: url('../images/char-mob1.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -331,21 +338,30 @@ position: relative;
 
 @media (min-width: 1440px) and (max-width: 1919px) {
 body {
-  padding-top: 40px;
   background-image:  url('../images/bg-desk.webp');
-  overflow-y: hidden;
+  overflow: hidden;
+}
+
+.block--1 {
+  padding-top: 50px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1600px;
+  overflow: hidden;
+  align-items: top;
+}
+
+.main {
+  padding-top: 30px;
 }
 
   .logos {
     padding: 0 0 0 50px;
-    /* padding-top: 60px; */
     width: 585px;
     height: 95px;
     margin: 0;
     align-items: center;
+    margin-bottom: 60px;
   }
 
   .logo1 {
@@ -363,8 +379,9 @@ body {
 .text-top {
   width: 660px;
   margin: 0;
+  justify-content: center;
   align-items: start;
-  padding: 0 0 0 50px;
+  padding-left: 50px;
 }
 
 .text-top-1 {
@@ -387,19 +404,19 @@ body {
 }
 
 .characters {
-  width: 900px;
-  height: 1000px;
-  min-height: 700px;
+  width: 875px;
+  height: 772px;
   background-image: url('../images/char-desk.png');
-  position: absolute;
-  background-size: 90% 90%;
   background-position: bottom right;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
   margin: 0;
   padding-bottom: 40px;
   background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 102.25%);
@@ -415,7 +432,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  max-width: 1600px;
   gap: 16px;
 }
 
@@ -435,18 +452,28 @@ body {
 .step-3 {
   background-image: url('../Frame-desk-3.png');
 }
+
 }
 
 
 @media (min-width: 1920px) {
 body {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   background-image:  url('../images/bg-desk.webp');
-  overflow-y: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  overflow: hidden;
+}
 
+.block--1 {
+  padding-top: 50px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 2000px;
+  overflow: hidden;
+  align-items: top;
+}
+
+.main {
+  padding-top: 70px;
 }
 
   .logos {
@@ -455,6 +482,7 @@ body {
     height: 95px;
     margin: 0;
     align-items: center;
+    margin-bottom: 100px;
   }
 
   .logo1 {
@@ -498,17 +526,18 @@ body {
 
 .characters {
   width: 1167px;
-  height: 1090px;
+  height: 1029px;
   background-image: url('../images/char-desk.png');
-  position: absolute;
-  background-size: 90% 90%;
   background-position: bottom right;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
   margin: 0;
   padding-bottom: 40px;
   background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 102.25%);
@@ -524,7 +553,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  max-width: 2000px;
   gap: 16px;
 }
 
@@ -547,8 +576,6 @@ body {
 
 
 }
-
-
 
 
 

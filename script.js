@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'images/bg-mob.webp',
     'images/char-desk.png',
     'images/char-tab.png',
-    'images/char-mob.png',
+    'images/char-mob1.png',
   ]);
 
 });
