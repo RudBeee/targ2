@@ -366,7 +366,7 @@ body {
   align-items: top;
   box-sizing: border-box;
   position: relative;
-  z-index: 700;
+  /* z-index: 700; */
 }
 
 .main {
